@@ -1,8 +1,11 @@
+// Login
 export const LOGIN_FETCHING = "LOGIN_FETCHING";
 export const LOGIN_FAILED = "LOGIN_FAILED";
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
 export const LOGOUT = "LOGOUT";
-
+export const LOGIN_STATUS = "LOGIN_STATUS";
+//----------------------------------------------------------------------
+// Connect Server
 export const apiUrl = "http://localhost:8085/api/v2";
 export const imageUrl = "http://localhost:8085";
 
@@ -17,10 +20,9 @@ export const server = {
   PRODUCT_URL: `stock/product`,
   TRANSACTION_URL: `transaction`,
   REPORT_URL: `stock/report`,
-  LOGIN_PASSED: `yes`
+  LOGIN_PASSED: `yes`,
 };
-
-export const LOGIN_STATUS ="LOGIN_STATUS"
+//----------------------------------------------------------------------
 
 // Error Code
 export const E_PICKER_CANCELLED = "E_PICKER_CANCELLED";
@@ -41,3 +43,17 @@ export const NETWORK_TIMEOUT_MESSAGE =
   "A network timeout has occurred, Please try again.";
 export const UPLOAD_PHOTO_FAIL_MESSAGE =
   "An error has occurred. The photo was unable to upload.";
+//----------------------------------------------------------------------
+
+// Stock Page
+export const STOCK_FETCHING = "STOCK_FETCHING";
+export const STOCK_SUCCESS = "STOCK_SUCCESS";
+export const STOCK_FAILED = "STOCK_FAILED";
+export const STOCK_CLEAR = "STOCK_CLEAR";
+
+// Stock Edit Page
+export const STOCK_EDIT_FETCHING = "STOCK_EDIT_FETCHING";
+export const STOCK_EDIT_SUCCESS = "STOCK_EDIT_SUCCESS";
+export const STOCK_EDIT_FAILED = "STOCK_EDIT_FAILED";
+export const STOCK_EDIT_INITIALED = "STOCK_EDIT_INITIALED";
+//----------------------------------------------------------------------
